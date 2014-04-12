@@ -1,11 +1,9 @@
 RewriteEngine on
 RewriteBase /
-RewriteRule ^resume/?$ /~gabelew/resume.pdf [NC]
-RewriteRule ^contact/?$ http://carri.me/c/?id=y6wlOD [NC]
-RewriteRule ^github/?$ http://github.com/gabelew [NC]
-RewriteRule ^error/?$ /~gabelew/error.html [NC]
-RewriteRule ^jessie/?$ /~gabelew/jessie.html [NC]
-ErrorDocument 404 /~gabelew/error.html 
-ErrorDocument 403 /~gabelew/error.html  
-ErrorDocument 500 /~gabelew/error.html
+RewriteRule ^resume/?$ /resume.pdf [NC]
+RewriteRule ^error/?$ /error.html [NC]
+RewriteRule ^jessie/?$ /jessie.html [NC]
+ErrorDocument 404 /error.html 
+ErrorDocument 403 /error.html  
+ErrorDocument 500 /error.html
 #
