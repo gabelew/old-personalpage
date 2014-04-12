@@ -48,6 +48,10 @@ h2 {
 	margin: 0; 
 }
 
+h3 {
+	margin: 0;
+}
+
 h2 a, h2 a:hover, h2 a:link {
 	text-decoration: none;
 	color: #000;
@@ -63,11 +67,17 @@ a:hover {
 	text-decoration: underline;
 }
 
+article {
+	margin-top: 1em;
+	float: left;
+	position: relative;
+ 	left: 35%;
+}
+
 .content p, .content .image{
-	width: 60%;
-	margin: 0 auto;
+	margin-top: 0;
 	font-size: 16px; font-size: 2rem;
-	}
+}
 	
 .image { 
    position: relative; 
