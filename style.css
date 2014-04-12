@@ -1,0 +1,95 @@
+@import url('normalize.css');
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata'), url(http://themes.googleusercontent.com/static/fonts/inconsolata/v6/BjAYBlHtW3CJxDcjzrnZCLrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+
+html { font-size: 62.5%; } 
+
+body {
+	font-family: 'Inconsolata', Helvetica, sans-serif;
+	font-size: 16px; font-size: 2rem;
+	line-height: 1.5;
+	color: #000;
+}
+
+#wrapper {
+	min-height: 100%;
+	max-width: 42em;
+	padding: 0 1em;
+	margin: auto;
+	background-color: #ffffff;
+}
+
+nav { 
+	margin: 2em 0 1em;
+	text-align: center;
+}
+
+ul {
+ 	padding: 0;
+	margin: 0;
+ }
+
+nav ul li{
+	list-style: none;
+	display: inline;
+	padding: 0 1em;
+}
+
+p a, p a:visited, p a:link {
+	color: #000;
+}
+
+h2 {	
+	margin: 0; 
+}
+
+h2 a, h2 a:hover, h2 a:link {
+	text-decoration: none;
+	color: #000;
+}
+
+ul a, ul a:visited, ul a:link {
+	color: #504A4B;
+	text-decoration: none;
+	width: 4em;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.content p, .content .image{
+	width: 60%;
+	margin: 0 auto;
+	font-size: 16px; font-size: 2rem;
+	}
+	
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.image h2 { 
+   position: absolute; 
+   top: 240px; 
+   left: 0; 
+   width: 100%; 
+}
+
+.image h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 5px; 
+}
+
+.image h2 span.spacer {
+   padding:0 3px;
+}
